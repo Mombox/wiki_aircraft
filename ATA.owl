@@ -1,0 +1,1546 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#"
+     xml:base="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#AC_Electrical_Load_Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#AC_Electrical_Load_Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#AC_Generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#AC_Generation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Accessory_Compartments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Accessory_Compartments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aerodynamic_Load_Alleviating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aerodynamic_Load_Alleviating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Intakes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Intakes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Supply -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Supply">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water/Waste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airfoil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airfoil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airplane_General_Information_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airplane_General_Information_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Audio_Integrating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Audio_Integrating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Throttle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Throttle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Automatic_Data_Reporting_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Automatic_Data_Reporting_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Autopilot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Autopilot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auxiliary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auxiliary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Core_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Core_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Mass_Memory_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Mass_Memory_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Monitoring_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Monitoring_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cargo_Compartments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cargo_Compartments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Computers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Computers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Display_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Display_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenance_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenance_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Warning_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Warning_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Compression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Compression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inert_Gas_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cooling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cooling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Core_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Core_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Modular_Avionics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Network_Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Crew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Crew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oxygen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#DC_Electrical_Load_Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#DC_Electrical_Load_Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#DC_Generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#DC_Generation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dependent_Position_Determining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dependent_Position_Determining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fire_Protection"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inert_Gas_System"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pneumatic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Vacuum"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Distribution-Drain_Valves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Distribution-Drain_Valves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Ballast"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Emergency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Emergency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Emergency_Lighting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Emergency_Lighting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine_Controls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine_Controls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Exhaust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Exhaust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Explosion_Suppression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Explosion_Suppression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fire_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#External_Communication_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#External_Communication_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#External_Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#External_Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Extinguish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Extinguish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fire_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fire_Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fire_Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flaps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flaps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Compartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Compartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Deck_Inforamtion_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Deck_Inforamtion_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Environment_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Environment_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Management_Computing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Management_Computing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Generator_Drive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Generator_Drive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Heating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Heating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Horizontal_Stabilizer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Horizontal_Stabilizer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Hydraulic_Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Hydraulic_Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Independent_Instruments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Independent_Instruments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Independent_Position_Determining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Independent_Position_Determining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inert_Gas_System"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pneumatic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Vacuum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Ballast"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inert_Gas_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inert_Gas_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inflight_Entertainment_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inflight_Entertainment_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Insulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Insulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Automatic_Tuning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Automatic_Tuning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Circuits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Circuits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Modular_Avionics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Modular_Avionics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Interphone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Interphone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lavatories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lavatories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lift_Augmenting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lift_Augmenting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Main -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Main">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Maintenance_Information_systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Maintenance_Information_systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Miscellaneous_Cabin_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Miscellaneous_Cabin_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Miscellaneous_Information_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Miscellaneous_Information_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Multipurpose_Electronic_Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Multipurpose_Electronic_Components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Network_Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Network_Components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Modular_Avionics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oxygen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oxygen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oxygen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Cabin_Information_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Cabin_Information_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Compartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Compartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pneumatic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pneumatic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Portable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Portable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oxygen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Potable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Potable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water/Waste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Power_Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Power_Plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pressurization_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pressurization_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Printed_Circuit_Card_Assemblies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Printed_Circuit_Card_Assemblies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Recorders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Recorders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#SATCOM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#SATCOM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Speech_Communications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Speech_Communications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Speed-Attitude_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Speed-Attitude_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Static_Discharging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Static_Discharging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Steering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Steering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Ballast"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#System_Monitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#System_Monitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Temperature_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Temperature_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Vacuum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Vacuum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Wash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Wash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water/Waste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Waste_Disposl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Waste_Disposl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water/Waste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Ballast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Ballast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Lines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Lines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#20/44_CMS_/_Airframe_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#20/44_CMS_/_Airframe_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#46/49_CMS_/_Airframe_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#46/49_CMS_/_Airframe_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aileron_&amp;_Tab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aileron_&amp;_Tab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Antennas_&amp;_Radomes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Antennas_&amp;_Radomes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Attitude_&amp;_direction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Attitude_&amp;_direction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Audio_&amp;_Video_Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Audio_&amp;_Video_Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Buffet_/_Galley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Buffet_/_Galley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Aircraft_General -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Aircraft_General">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Power_Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Power_Plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Propellers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Propellers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Structures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Data_Transmission_&amp;_Automatic_Calling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Data_Transmission_&amp;_Automatic_Calling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_&amp;_Electronic_Equipment_Racks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_&amp;_Electronic_Equipment_Racks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_&amp;_Electronic_Junction_Boxes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_&amp;_Electronic_Junction_Boxes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Elevator_&amp;_Tab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Elevator_&amp;_Tab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine_Fuel_&amp;_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine_Fuel_&amp;_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Extension_&amp;_Retraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Extension_&amp;_Retraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Generation/Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Generation/Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inert_Gas_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Gust_Lock_&amp;_Damper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Gust_Lock_&amp;_Damper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ignition_/_Starting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ignition_/_Starting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Instrument_&amp;_Control_Panels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Instrument_&amp;_Control_Panels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Instrument_&amp;_Control_Panels_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Instrument_&amp;_Control_Panels_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_&amp;_Taxiing_Aids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_&amp;_Taxiing_Aids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Main_Gear_&amp;_Doors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Main_Gear_&amp;_Doors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Moisture/Air_Contaminent_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Moisture/Air_Contaminent_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Nose_Gear_/_Tail_Gear_&amp;_Doors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Nose_Gear_/_Tail_Gear_&amp;_Doors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Address,_Entertainment_&amp;_Comfort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Address,_Entertainment_&amp;_Comfort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pitot_&amp;_Static -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pitot_&amp;_Static">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Position_&amp;_Warning_and_Ground_Safety_Switch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Position_&amp;_Warning_and_Ground_Safety_Switch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Primary_&amp;_Secondary_Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Primary_&amp;_Secondary_Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Propellers_/_Rotors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Propellers_/_Rotors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Rudder_&amp;_Tab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Rudder_&amp;_Tab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Spoiler,_Drag_Devices_&amp;_Variable_Aerodynamic_Fairings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Spoiler,_Drag_Devices_&amp;_Variable_Aerodynamic_Fairings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Supplementary_Gear_-_Skis,_Floats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Supplementary_Gear_-_Skis,_Floats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water/Waste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water/Waste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aircraft_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Wheels_&amp;_Brakes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Wheels_&amp;_Brakes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Windows,_Windshields_&amp;_Doors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Windows,_Windshields_&amp;_Doors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#AC_Electrical_Load_Distribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#AC_Generation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#DC_Electrical_Load_Distribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#DC_Generation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#External_Power"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Generator_Drive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Primary_&amp;_Secondary_Power"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Accessory_Compartments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cargo_Compartments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Emergency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Compartment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Insulation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lavatories"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Compartment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Buffet_/_Galley"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aerodynamic_Load_Alleviating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Throttle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Autopilot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Speed-Attitude_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#System_Monitor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine_Controls"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Exhaust"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Power_Plant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Engine_Fuel_&amp;_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ignition_/_Starting"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Conditionning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airborne_Auxiliary_Power"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auto_Flight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenace_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Communications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Electronic_Panels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_Power"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fire_Protection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Controls"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Fuel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Hydraulic_Power"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inert_Gas_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Information_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Modular_Avionics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_Gear"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lights"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Navigation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Oxygen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pneumatic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Vacuum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Ballast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Equipment/Furnishings"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Ice_&amp;_Rain_Protection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating/Recording_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water/Waste"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Intakes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airfoil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Detection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Water_Lines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Antennas_&amp;_Radomes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pitot_&amp;_Static"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Propellers_/_Rotors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Windows,_Windshields_&amp;_Doors"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Air_Supply"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Potable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Wash"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Waste_Disposl"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Airplane_General_Information_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Deck_Inforamtion_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Maintenance_Information_systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Miscellaneous_Information_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Cabin_Information_Systems"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Audio_Integrating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Automatic_Tuning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Interphone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#SATCOM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Speech_Communications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Static_Discharging"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Audio_&amp;_Video_Monitoring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Data_Transmission_&amp;_Automatic_Calling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger_Address,_Entertainment_&amp;_Comfort"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Automatic_Data_Reporting_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Computers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Display_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Warning_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Independent_Instruments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Recorders"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Instrument_&amp;_Control_Panels"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Auxiliary"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Distribution-Drain_Valves"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dump"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Main"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Storage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Core_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Mass_Memory_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cabin_Monitoring_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#External_Communication_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Inflight_Entertainment_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Miscellaneous_Cabin_System"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Central_Maintenance_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#20/44_CMS_/_Airframe_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#46/49_CMS_/_Airframe_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Aircraft_General"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Power_Plant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Propellers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#CMS_/_Structures"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Compression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Cooling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Distribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Heating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Pressurization_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Temperature_Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Moisture/Air_Contaminent_Control"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Control"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Distribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indicating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Generation/Storage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Crew"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dependent_Position_Determining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Emergency_Lighting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Environment_Data"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Management_Computing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Independent_Position_Determining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Portable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Attitude_&amp;_direction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_&amp;_Taxiing_Aids"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Crew"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Passenger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Portable"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dependent_Position_Determining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Emergency_Lighting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Environment_Data"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flight_Management_Computing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Independent_Position_Determining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Attitude_&amp;_direction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Landing_&amp;_Taxiing_Aids"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Detection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Explosion_Suppression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Extinguish"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Dump"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Indication"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Storage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Flaps"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Horizontal_Stabilizer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Lift_Augmenting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Aileron_&amp;_Tab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Elevator_&amp;_Tab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Gust_Lock_&amp;_Damper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Rudder_&amp;_Tab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Spoiler,_Drag_Devices_&amp;_Variable_Aerodynamic_Fairings"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Integrated_Circuits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Multipurpose_Electronic_Components"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Printed_Circuit_Card_Assemblies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_&amp;_Electronic_Equipment_Racks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Electrical_&amp;_Electronic_Junction_Boxes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Instrument_&amp;_Control_Panels_2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Steering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Extension_&amp;_Retraction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Main_Gear_&amp;_Doors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Nose_Gear_/_Tail_Gear_&amp;_Doors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Position_&amp;_Warning_and_Ground_Safety_Switch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Supplementary_Gear_-_Skis,_Floats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ismail.lazrak/ontologies/2021/8/untitled-ontology-28#Wheels_&amp;_Brakes"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
